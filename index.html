@@ -1,0 +1,76 @@
+<html>
+<head>
+   
+
+
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="jquery.scrollAnimate.js"></script>
+
+	<title>	</title>
+</head>
+
+<body>
+	<div id="container">
+		
+
+
+<div id=slidex>
+        <div id="slides"></div>
+    </div>
+		<div id="left">Left</div> 
+		<div id="center"><img  src="1.jpg" style="height: 5%;
+width: 10%; background:repeat;"/>Center</div>
+		<div id="right" class="col-sm-4">Right</div>
+		
+		<div id="footer">Footer</div>
+        
+        <div id="header" class="content">
+
+			<center><ul class="ul" >
+				<li>About</li>
+				<li>Contact</li>
+				<li>About</li>
+				<li>Contact</li>
+                </ul></center>
+
+
+		</div>
+        
+	</div>
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    <script type="text/javascript">
+
+$(document).ready(function() {
+
+
+	
+
+	$('.content').scrollAnimate({
+		startScroll: 0,
+		endScroll: 200,
+		cssProperty: 'opacity',
+		before: 1,
+		after: 0.7
+
+});
+    
+    
+    
+   
+    });
+
+</script>
+
+</body>
+</html>
