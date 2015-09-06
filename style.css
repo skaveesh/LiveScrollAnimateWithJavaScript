@@ -1,0 +1,90 @@
+html,body {margin:0;padding:0;
+
+}
+
+.ul li
+{
+    display: inline;
+}
+
+
+#container
+{
+	width: 100%;
+	height: 130%; 
+	position: absolute;
+	
+}
+
+#header
+{	
+	width: 100%;
+	height: 9.5%;
+	background-color:red;
+	position: fixed;
+    overflow: hidden;
+	
+}
+
+#slides
+{	
+	width: 100%;
+	height: 78%;
+	
+	position: fixed;
+    background: url('1.jpg') repeat;
+	background-size:;
+}
+
+
+#slidex
+{	
+	overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 78%;
+}
+
+
+#left
+{
+    
+	width: 20%;
+	height: 70%;
+	background-color:lime; 
+	position: absolute;
+	top: 60%;
+}
+
+#right
+{
+	float: right;
+	width: 20%;
+	height: 70%;
+	background-color:yellow;
+	position: absolute;
+ 	left: 80%;
+	float: left;
+	top: 60%;
+}
+
+#center
+{	
+	left: 20%;
+	background-color:blue;
+	position: absolute;
+	width: 60%;
+	height: 70%;
+    overflow: hidden;
+	
+	top: 60%;
+}
+
+#footer
+{	
+	position: absolute;
+	width: 100%;
+	height: 30%;
+	top: 130%;
+	background-color: violet;
+}
